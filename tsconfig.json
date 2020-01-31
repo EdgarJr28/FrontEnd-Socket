@@ -3,9 +3,6 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
-    "paths": {
-      "rxjs": ["node_modules/rxjs"]
-    },
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
