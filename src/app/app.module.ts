@@ -4,11 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
-import { environment } from 'src/environments/environment';
+import { environment } from '../environments/environment'
 
 
-
-const config: SocketIoConfig = { url: environment.wsUrl, options: {} };
+const config: SocketIoConfig = {
+  url: environment.wsUrl , options: {}
+};
 
 @NgModule({
   declarations: [
